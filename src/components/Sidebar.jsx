@@ -29,7 +29,7 @@ const DesktopSidebar = () => {
             <Home size={24} />
             <span className="hidden md:block font-bold">Home</span>
           </Link>
-          <Link to={"/favourite"} className="flex gap-1">
+          <Link to={"/favourites"} className="flex gap-1">
             <Heart size={24} />
             <span className="hidden md:block font-bold">Favourite</span>
           </Link>
@@ -45,7 +45,7 @@ const MobileSidebar = () => {
       <Link to={"/"} className="flex gap-1">
         <Home size={24} />
       </Link>
-      <Link to={"/favourite"} className="flex gap-1">
+      <Link to={"/favourites"} className="flex gap-1">
         <Heart size={24} />
       </Link>
     </div>
